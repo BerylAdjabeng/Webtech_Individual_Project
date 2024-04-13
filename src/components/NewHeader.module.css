@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: #b6455e;
+    padding: 10px 20px;
+    color: black;
+}
+  
+.h1 {
+    color: white;
+    text-align: center; 
+    margin: 0 auto; 
+}
+  
+.company-logo {
+    width: 70px;
+    height: 70px;
+}
+
+.options {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.icon {
+	float: right;
+	margin-left: 5px;
+}
+
+.rotate {
+	transform: rotateX(180deg);
+}
